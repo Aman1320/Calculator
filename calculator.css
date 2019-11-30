@@ -1,0 +1,53 @@
+h1
+{
+	align-content: center;
+	color:#572B37;
+	font-style:italic;
+	font-family:cursive;
+	font-size: 40px;
+	display: inline-block;
+background-color:#008080;
+border-radius: 10px;
+}
+body
+{
+	margin-left: 300px;
+	margin-right: 400px;
+	border-style:double;
+	border:2px solid gray;
+	border-radius: 10px;
+}
+label
+{
+	color: #572B37;
+	font-style:italic;
+	font-size: 25px;
+	font-family: cursive;
+}
+div.out
+
+{
+	font-style:italic;
+	color: #572B37;
+	font-size: 25px;
+	font-family:cursive;
+}
+button
+{
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	font-style:italic;
+	border-radius:16px;
+	font-size:15px;
+	font-family: cursive;
+	color:#2E9085;
+	cursor: pointer;
+	border-color: #4CAF50;
+ 
+}
+button:hover
+{
+	 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

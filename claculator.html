@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my calculator</title>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+<script type="text/javascript">
+	function sub()
+	{
+		var input1=document.getElementById('input1').value;
+		var input2=document.getElementById('input2').value;
+		var out=input1-input2;
+		document.getElementById('out').innerHTML=out;
+	}
+	function add()
+	{
+		var input1=parseInt(document.getElementById('input1').value);
+		var input2=parseInt(document.getElementById('input2').value);
+		var out=input1+input2;
+		document.getElementById('out').innerHTML=out;
+	}
+	function div()
+	{
+		var input1=(document.getElementById('input1').value);
+		var input2=(document.getElementById('input2').value);
+		var out=input1/input2;
+		document.getElementById('out').innerHTML=out;
+	}
+	function multi()
+	{
+		var input1=document.getElementById('input1').value;
+		var input2=document.getElementById('input2').value;
+		var out=input1*input2;
+		document.getElementById('out').innerHTML=out;
+	}
+	
+	
+</script>
+</head>
+<body background="as.jpg">
+	<center><h1>Claculator</h1><br>
+		<div>
+<label for="input1">Input 1:- <input type="number" name="enter the no." id="input1"></label><br><br>
+<label for="input2">Input 2:- <input type="number" name="enter the no."id="input2"></label><br><br>
+         </div>
+<div class="b1">
+<button type="button" onclick="add();">Add</button>
+<button type="button" value="Subtract" onclick='sub();'>Subtract</button>
+<button type="button" onclick="div();">Division</button>
+<button type="button" onclick="multi();">multiplication</button><br>
+<div class="out">
+Output:- <output id="out"></output>
+</div><br><br>
+</center></body>
+</html>
